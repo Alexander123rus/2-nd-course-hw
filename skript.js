@@ -1,8 +1,11 @@
 // задание 1
-alert(10);
-alert(20);
+let $t = 10;
+let $p = 20;
+alert($t);
+alert($p);
 // задание 2
-alert(2007);
+let $z =2007;
+alert($z);
 //задание 3
 let message = 'Brendan Eich';
 alert(message); 
@@ -22,7 +25,7 @@ alert($d ** $c);
 // задание 6
 let $i = 9;
 let $u = 2;
-alert($i / $u);
+alert($i % $u);
 //задание7
 let num = 1;
 num =++ 5;
@@ -36,18 +39,21 @@ alert(num);
 let age =prompt("Сколько вам лет?")
 alert(age)
 //задание 9
-let user = {
-    name: "Alex",
-    years: 33
-  };
+let person = {
+  firstName: "Alex",
+  isAdmin: true,
+  age: 33,
   
-  //let {name, years: ages, isAdmin = false} = user;
-  alert( user.name );
-  alert( user.ages );
+}; 
+person.city: "Novokubansk",
+person.age = 34;
+person.city: none;
+  alert( user.firstName );
+  alert( user.age );
  
-  name=prompt("Какую информацию хотите узнать о пользователе?")
- 
- 
+  irstName =prompt("Какую информацию хотите узнать о пользователе?")
+ alert(person)
+ //задание 10
  let name = prompt('Ваше имя?');
  alert('Привет: ' + name);
 
