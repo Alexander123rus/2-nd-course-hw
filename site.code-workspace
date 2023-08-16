@@ -1,0 +1,22 @@
+{
+  "folders": [
+	{
+		"path": "../site"
+	},
+	{
+		"path": "../serv"
+	},
+	{
+		"path": "../rer"
+	},
+	{
+		"path": "../2kyrs"
+	},
+	{
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "site"
+  }
+}
