@@ -55,6 +55,9 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+.button:hover{
+  transform: scale(1.05);
+}
 
 .aside_item_1{
   width: 345px;
@@ -78,9 +81,12 @@ flex-shrink: 0;
 background: linear-gradient(180deg, rgba(39, 1, 15, 0.00) 0%, #001944 100%), url(img/foto_3.jpg), lightgray 50% / cover no-repeat;
 }
 .aside_item{
-
+ 
 border-radius: 16px;
 border-radius: 16px;
+}
+.aside_item:hover {
+  transform: scale(1.05);
 }
 .aside_item-text{
   color: #FFF;
