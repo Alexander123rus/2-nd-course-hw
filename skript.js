@@ -1,59 +1,43 @@
-// задание 1
-let $t = 10;
-let $p = 20;
-alert($t);
-alert($p);
-// задание 2
-let $z =2007;
-alert($z);
+//задание 1
+let password = "12345abcde"
+
+if( beginWithoutDigit.test(password) &&
+    withoutSpecialChars.test(password) &&
+    containsLetters.test(password) ){
+    console.log('Пароль введен верно');
+} else {
+    console.log('Пароль введен неправильно');
+}
+//задание 2
+let hour = 100;
+if (hour < 1 || hour > 100) {
+	alert('Верно');
+}
+
+else(hour < 100 || hour > 300){
+    alert(' не верно');
+}
 //задание 3
-let message = 'Brendan Eich';
-alert(message); 
-//задание 4
-let $a = 10; 
-let $b = 2; 
-
-alert($a + $b); // 3
-alert($a + $b);
-alert($a - $b);
-alert($a * $b);
-alert($a / $b);
-//задание 5
-let $d = 2;
-let $c = 5;
-alert($d ** $c);
-// задание 6
-let $i = 9;
-let $u = 2;
-alert($i % $u);
-//задание7
-let num = 1;
-num =++ 5;
-num =-- 3;
-num = num * 7;
-num = num / 3;
-num = ++ 1;
-num = -- 1;
+let num = 10;
+if (num == 10) {
+alert('Right');
+} else {
+alert('Wrong');
+};
 alert(num);
-//задание 8
-let age =prompt("Сколько вам лет?")
-alert(age)
-//задание 9
-let person = {
-  firstName: "Alex",
-  isAdmin: true,
-  age: 33,
-  
-}; 
-person.city: "Novokubansk",
-person.age = 34;
-person.city: none;
-  alert( user.firstName );
-  alert( user.age );
- 
-  irstName =prompt("Какую информацию хотите узнать о пользователе?")
- alert(person)
- //задание 10
- let name = prompt('Ваше имя?');
- alert('Привет: ' + name);
-
+let a = '2';
+let b = '3';
+// Код выше изменять менять нельзя, чтобы решить задачу исправьте код ниже: 
+alert(Number(a) + Number(b));
+//задание 4
+const
+  Seasons: array [0..3] of string = ('Зима', 'Весна', 'Лето', 'Осень');
+let
+  n: integer;
+begin
+  readln(n);
+  if n in [1..12] then
+    writeln(Seasons[(n mod 12) div 3])
+  else
+    Write('Неверный номер месяца');
+end.
