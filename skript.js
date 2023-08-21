@@ -1,43 +1,42 @@
 //задание 1
-let password = "12345abcde"
+let i = 0;
 
-if( beginWithoutDigit.test(password) &&
-    withoutSpecialChars.test(password) &&
-    containsLetters.test(password) ){
-    console.log('Пароль введен верно');
-} else {
-    console.log('Пароль введен неправильно');
+while (i < 2) {
+  alert("Привет");
+  i++;
 }
 //задание 2
-let hour = 100;
-if (hour < 1 || hour > 100) {
-	alert('Верно');
-}
-
-else(hour < 100 || hour > 300){
-    alert(' не верно');
+for (let i = 1; i <= 10; i++) {
+  if (i % 1 == 0) {
+    alert(i);
+  }
 }
 //задание 3
-let num = 10;
-if (num == 10) {
-alert('Right');
-} else {
-alert('Wrong');
-};
-alert(num);
-let a = '2';
-let b = '3';
-// Код выше изменять менять нельзя, чтобы решить задачу исправьте код ниже: 
-alert(Number(a) + Number(b));
+for (let i = 7; i <= 23; i++) {
+  if (i % 1 == 0) {
+    alert(i);
+  }
+}
 //задание 4
-const
-  Seasons: array [0..3] of string = ('Зима', 'Весна', 'Лето', 'Осень');
-let
-  n: integer;
-begin
-  readln(n);
-  if n in [1..12] then
-    writeln(Seasons[(n mod 12) div 3])
-  else
-    Write('Неверный номер месяца');
-end.
+let obj = { Коля: 200, Вася: 300, Petya: 400 };
+
+for (key in obj) {
+  document.write([key] + " - Зарплата" + obj[key] + "долларов" + "<br>");
+}
+//задание 5
+let n = 1000;
+let num = 0;
+while (n > 50) {
+  num++;
+  n /= 2;
+}
+document.write();
+n;
+document.write();
+num;
+//6 не пооймк как сделать
+$days = [1 => 'Понедельник', 2 => 'Вторник', 3 => 'Среда', 4 => 'Четверг', 5 => 'Пятница', 6 => 'Субота', 7 => 'Воскресенье'];
+let_dump($days[5]);
+
+while($days) {console.log 
+("Сегодня пятница, ...-е число. Необходимо подготовить отчет");
