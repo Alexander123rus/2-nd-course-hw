@@ -1,43 +1,46 @@
 //задание 1
-let password = "12345abcde"
-
-if( beginWithoutDigit.test(password) &&
-    withoutSpecialChars.test(password) &&
-    containsLetters.test(password) ){
-    console.log('Пароль введен верно');
-} else {
-    console.log('Пароль введен неправильно');
-}
+login_ok = false;
+  password = "";
+  password = prompt("Введите пароль", "");
+  if(password == "123")
+  {
+    login_ok = true;
+    alert("Пароль введен верно");
+    
+  }
+  if(login_ok == false)
+  {
+    alert("Пароль введен неправильно");
+  }
 //задание 2
-let hour = 100;
-if (hour < 1 || hour > 100) {
-	alert('Верно');
-}
-
-else(hour < 100 || hour > 300){
-    alert(' не верно');
-}
-//задание 3
-let num = 10;
-if (num == 10) {
-alert('Right');
+let a = 2;
+a= prompt("число")
+if (a >= 0 && a <= 10) {
+alert('Верно');
 } else {
-alert('Wrong');
+alert('Неверно');
 };
-alert(num);
+//задание 3
+let a = 0;
+let b = 100;
+a = prompt("")
+if (a > 2 && a < 11 || b >= 6 && b < 14) {
+alert('Верно');
+} else {
+alert('Неверно');
+};
+//задание4
 let a = '2';
 let b = '3';
-// Код выше изменять менять нельзя, чтобы решить задачу исправьте код ниже: 
 alert(Number(a) + Number(b));
-//задание 4
-const
-  Seasons: array [0..3] of string = ('Зима', 'Весна', 'Лето', 'Осень');
-let
-  n: integer;
-begin
-  readln(n);
-  if n in [1..12] then
-    writeln(Seasons[(n mod 12) div 3])
-  else
-    Write('Неверный номер месяца');
-end.
+//задание 5
+let a = 3; 
+a=prompt("Месяц года")
+if (a == 12 , a == 1 ,a ==2) {
+    alert('зима'); }
+if (a == 3 , a == 4 ,a ==5) {
+    alert('весна'); }
+if (a == 6 , a == 7 ,a == 8) {
+    alert('лето'); }
+if (a == 9 , a == 10 ,a == 11) {
+    alert('весна'); }
